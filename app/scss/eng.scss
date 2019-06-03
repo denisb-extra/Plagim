@@ -1,0 +1,55 @@
+body.eng {
+* {
+	direction: ltr;
+}
+
+/* ---------------------- header ---------------------- */
+header {
+	left: 0;
+	right: 0;
+
+
+
+	.part-left {
+		.icons {
+
+			.icon {
+				margin-left: 0;
+				margin-right: 6px;
+			}
+
+		}
+
+		.text {
+			margin-right: 0;
+			margin-left: 15px;
+		}
+	}
+
+	@media only screen and (max-width : 850px) {
+
+
+	
+		.part-left {
+			.icons {
+	
+				.icon-tel {
+					margin-left: 0;
+					margin-right: 0;
+				}
+
+			}
+	
+		}
+
+	}
+}
+/* --------------------- /header ---------------------- */
+
+
+/* --------------- Toggle button ---------------- */
+.toggle-button {
+	margin-left: 8px;
+}
+/* --------------- /Toggle button ---------------- */
+}

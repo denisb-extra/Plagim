@@ -2184,3 +2184,25 @@ section.product {
         margin-top: 10px; } }
 
 /* --------------------- /Section product ---------------------- */
+body.eng {
+  /* ---------------------- header ---------------------- */
+  /* --------------------- /header ---------------------- */
+  /* --------------- Toggle button ---------------- */
+  /* --------------- /Toggle button ---------------- */ }
+  body.eng * {
+    direction: ltr; }
+  body.eng header {
+    left: 0;
+    right: 0; }
+    body.eng header .part-left .icons .icon {
+      margin-left: 0;
+      margin-right: 6px; }
+    body.eng header .part-left .text {
+      margin-right: 0;
+      margin-left: 15px; }
+    @media only screen and (max-width: 850px) {
+      body.eng header .part-left .icons .icon-tel {
+        margin-left: 0;
+        margin-right: 0; } }
+  body.eng .toggle-button {
+    margin-left: 8px; }
